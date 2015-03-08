@@ -509,6 +509,9 @@ var
               },
               'adserror': function() {
                 this.state = 'content-playback';
+              },
+              'adscanceled': function() {
+                this.state = 'content-playback';
               }
             }
           },
